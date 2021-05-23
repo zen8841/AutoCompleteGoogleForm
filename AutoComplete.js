@@ -15,8 +15,8 @@
         const userData = {
             Class : 217,
             Seat : 1,
-            Name : "文仁謙",
-            ID : 90419
+            Name : /*"your name"*/,
+            ID : /*Your ID last 5 Number*/
         };
         const entryPoint = {
             Class : FB_PUBLIC_LOAD_DATA_[1][1][0][4][0][0],
