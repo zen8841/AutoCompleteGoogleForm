@@ -16,9 +16,9 @@
 
 ![Picture](https://github.com/zen8841/AutoCompleteGoogleForm/blob/main/Picture/3.png)
 
-我們可以發現所有我們要的東西都存在FB_PUBLIC_LOAD_DATA_這個陣列裡，這個腳本會先檢查第一個問題是否為班級，如果是才會執行腳本
+我們可以發現所有我們要的東西都存在FB_PUBLIC_LOAD_DATA_這個陣列裡，稍微看一下即可找到值位於陣列的何處。
 
 
 
-最後就是透過從FB_PUBLIC_LOAD_DATA_中得到的值去更改網址，並在最後加上&?xxx作為識別已經填完的表單，避免因為檢查到https://docs.google.com/forms/*而一直重複運行(@exclude      https://docs.google.com/forms/*&?123)
+這個腳本會先檢查第一個問題是否為班級，如果是才會執行腳本，最後就是透過從FB_PUBLIC_LOAD_DATA_中得到的值去更改網址，並在最後加上&?xxx作為識別已經填完的表單，避免因為檢查到https://docs.google.com/forms/*而一直重複運行(@exclude      https://docs.google.com/forms/*&?123)
 
