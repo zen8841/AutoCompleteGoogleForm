@@ -29,3 +29,6 @@
         window.location.replace (newURL);
     }
 })();
+// x = number of question
+// FB_PUBLIC_LOAD_DATA_[1][1][x][1] = title
+// FB_PUBLIC_LOAD_DATA_[1][1][x][4][0][0] = entrypoint of question x
