@@ -20,5 +20,5 @@
 
 
 
-這個腳本會先檢查第一個問題是否為班級，如果是才會執行腳本，最後就是透過從FB_PUBLIC_LOAD_DATA_中得到的值去更改網址，並在最後加上&?xxx作為識別已經填完的表單，避免因為檢查到https://docs.google.com/forms/*而一直重複運行(@exclude      https://docs.google.com/forms/*&?123)
+這個腳本會先檢查第一個問題是否為班級，如果是才會執行腳本，最後就是透過從FB_PUBLIC_LOAD_DATA_中得到的值去更改網址，並在最後加上&?xxx作為識別已經填完的表單，避免因為檢查到https://docs.google.com/forms/* 而一直重複運行(@exclude      https://docs.google.com/forms/*&?123)
 
