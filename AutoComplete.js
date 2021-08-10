@@ -5,7 +5,7 @@
 // @description  Fill the form automatically
 // @author       Zen Wen
 // @match        https://docs.google.com/forms/*
-// @exclude      https://docs.google.com/forms/*&?123
+// @exclude      https://docs.google.com/forms/*?123
 // @grant        none
 // ==/UserScript==
 
@@ -19,7 +19,7 @@
         Food : "飯"
     };
     var oldUrlPath = window.location.pathname;
-    var newURL = oldUrlPath + "&?123";
+    var newURL = oldUrlPath + "?123";
     if(FB_PUBLIC_LOAD_DATA_[1][1][0][1] === "班級"){
         const entryPoint = {
             Class : FB_PUBLIC_LOAD_DATA_[1][1][0][4][0][0],
